@@ -28,16 +28,18 @@ requests, no network needed after first load.
 5. Test airplane mode: toggle it on, launch the app, tap for an answer. If it
    answers, the device is venue-ready; toggle airplane back off.
 
-**Older iPad (iOS 17, A10X):** everything above works — Safari on iOS 16.4+
-supports service workers and standalone Home Screen web apps, so 17 is fully
-covered. Expect the
+**Older iPad (A10X, iOS 17.7.x):** fully supported — service workers and
+standalone Home Screen web apps have been in Safari since iOS 16.4, so iOS 17
+misses nothing. Expect the
 *tier-0* experience by design (static fog, no infinite animations) — that is
-the capability gate doing its job, not a defect. Do **not** enable Low Power
-Mode on the event device; it suppresses screen wake locks at the OS level.
+the hardware capability gate doing its job, not a defect. Do **not** enable
+Low Power Mode on the event device; it suppresses screen wake locks at the
+OS level.
 
-**Newer iPad / iPhone (iPadOS/iOS 17+):** identical flow. These devices get
-the full *tier-1* suite (animated turbulence fog) automatically via the GPU
-probe. On first launch the page may ask nothing and just work — standalone
+**Newer iPad / iPhone (M-series or A12+, same iOS 17):** identical flow. The
+OS version is not the differentiator — the GPU probe is. These devices get
+the full *tier-1* suite (animated turbulence fog) automatically. On first
+launch the page may ask nothing and just work — standalone
 mode engages on Home Screen launch; fullscreen on Safari tabs triggers on
 first tap.
 
