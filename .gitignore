@@ -1,0 +1,6 @@
+# Fonts are embedded in the HTML as base64; local copies stay out of version control
+assets/fonts/
+*.woff2
+
+# macOS
+.DS_Store
