@@ -15,11 +15,46 @@ requests, no network needed after first load.
 
 ## Install on iPad / iPhone
 
-1. Open a page URL in Safari (**once, online** — this installs the service
-   worker and caches the page).
-2. Share → **Add to Home Screen**.
-3. From then on the app launches full-screen, offline (airplane mode included),
-   served entirely from local cache.
+**All devices — first install (needs network once):**
+
+1. Open the page URL in **Safari** (not Chrome/other browsers — iOS installs
+   Home Screen web apps from Safari only):
+   <https://elodhorvath.github.io/majick-ball/magic-8ball.html>
+   (or `magic-9ball.html`)
+2. Wait for the ball to render (fonts/effects are inline; first paint is fast).
+3. **Share** (□↑) → scroll to **Add to Home Screen** → Add.
+4. Launch from the Home Screen icon once while online. This arms the service
+   worker cache — from now on the app is airplane-mode-proof.
+5. Test airplane mode: toggle it on, launch the app, tap for an answer. If it
+   answers, the device is venue-ready; toggle airplane back off.
+
+**Older iPad (iOS 17, A10X):** everything above works — Safari on iOS 16.4+
+supports service workers and standalone Home Screen web apps, so 17 is fully
+covered. Expect the
+*tier-0* experience by design (static fog, no infinite animations) — that is
+the capability gate doing its job, not a defect. Do **not** enable Low Power
+Mode on the event device; it suppresses screen wake locks at the OS level.
+
+**Newer iPad / iPhone (iPadOS/iOS 17+):** identical flow. These devices get
+the full *tier-1* suite (animated turbulence fog) automatically via the GPU
+probe. On first launch the page may ask nothing and just work — standalone
+mode engages on Home Screen launch; fullscreen on Safari tabs triggers on
+first tap.
+
+**Notes for both:**
+
+- The **first visit must be online** — the service worker installs and the
+  page caches at that moment. Later installs/updates need that same device
+  to come online once to refresh the cache.
+- After the app is installed, treat it as an app: deleting the Home Screen
+  icon also deletes its cache; re-install = repeat step 1.
+- Page updates ship via the **cache-version ritual** (README §Service worker):
+  bump `majick-ball-v1` → `-v2`, deploy, then launch the app once online per
+  device; the fresh page appears on the launch after that.
+- If the icon on the Home Screen shows a white ball instead of the striped
+  9 / black 8 art, the install pre-dates the icon embed — delete the icon,
+  come online, re-install from step 1.
+
 
 ## Service worker & updates
 
