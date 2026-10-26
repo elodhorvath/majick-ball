@@ -4,3 +4,7 @@ assets/fonts/
 
 # macOS
 .DS_Store
+
+# Internal work logs — dev-workspace only, never published
+progress.md
+docs/progress.md
