@@ -15,6 +15,10 @@ requests, no network needed after first load.
 
 ## Install on iPad / iPhone
 
+> **Non-technical?** Read [INSTALL.md](INSTALL.md) instead — plain-English
+> steps with no jargon. The section below is the technically complete
+> reference.
+
 **All devices — first install (needs network once):**
 
 1. Open the page URL in **Safari** (not Chrome/other browsers — iOS installs
@@ -56,7 +60,6 @@ first tap.
 - If the icon on the Home Screen shows a white ball instead of the striped
   9 / black 8 art, the install pre-dates the icon embed — delete the icon,
   come online, re-install from step 1.
-
 
 ## Service worker & updates
 
