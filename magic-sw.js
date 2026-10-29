@@ -4,7 +4,7 @@
 // network only as background refresh. HTTPS-only hosts (ngrok, GitHub Pages);
 // never registers on LAN HTTP or file:// — registration gate in the pages.
 // Dormant-code philosophy: update the version string to force a cache refresh.
-const CACHE = 'majick-ball-v1';
+const CACHE = 'majick-ball-v2';
 const ASSETS = [
   './magic-9ball.html',
   './magic-8ball.html'

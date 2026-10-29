@@ -1,5 +1,69 @@
-# 8-Ball Quippy Extras (draft - auto-generated for Elod/Jamie review)
+# 8-Ball Responses
 
+## 8-Ball Auto-generated Quippy Extras
+
+- Signs point to: get a snack first.
+- The universe says yes, but check the fine print.
+- Outlook good… if you survive the night.
+- Very likely, unless the spirits are messing with me.
+- My reply is yes. Don't blame me later.
+- Ask again after you caffeinate.
+- It is certain… spooky certain.
+- Outlook murky, like a Halloween fog.
+- Yes, unless it's a bad idea. It might be.
+- My sources say: good luck with that.
+- Concentrate and ask again… preferably in the dark.
+- Yes, but bring a costume change.
+- Signs point to yes, but the spirits are giggling.
+- Ask again later, I'm charging my crystal ball.
+- Most likely, but don't bet your last Tootsie Roll on it.
+- It is decidedly so… or is it?
+
+## The Curated Sassy Set from Jams
+
+- This could get balls-y.
+- The signs say yes. Your therapist may disagree.
+- I foresee poor decisions and excellent stories.
+- I support this questionable decision.
+- Yes. We ride at dawn.
+- It's giving YES.
+- You have my full, unqualified support.
+- Trust your gut. It's rarely this entertaining.
+- Do it for the plot.
+- Probably. But let's not tell everyone.
+- Absolutely. You deserve a little treat.
+- Unlike SOME balls, I have good news
+- Ask me. I'm the fun one.
+- The stars are being messy. I approve.
+- Destiny has entered the chat.
+- Mercury is in whatever makes this work.
+- The vibes have been reviewed and approved.
+- Your ancestors are gossiping about this.
+- Cosmic forces say: hot damn.
+- Babe, obviously.
+- The universe is literally arranging this for you.
+- Proceed like the hot person you are.
+- I said what I said.
+- Main character energy confirmed.
+- Green light, drama queen.
+- Honestly? Iconic.
+- Yes, and don't make it weird.
+- Against all odds, you're right.
+- The answer is yes, gorgeous.
+- Absolutely. Make it interesting.
+- The universe ships it.
+- You already know you want to.
+- Outlook is getting hot.
+- Reply hazy, try again
+- Ask again later
+- Better not tell you now
+- Concentrate and ask again
+- Don't count on it
+- My reply is no
+- My sources say no
+- Outlook not so good
+- Very doubtful
+- Shooting blanks here… Maybe the 9-ball is loaded.
 - Signs point to: get a snack first.
 - The universe says yes, but check the fine print.
 - Outlook good… if you survive the night.

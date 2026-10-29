@@ -39,3 +39,15 @@ Add more lines below as Elod curation continues.
 34. No, and I look fabulous saying it.
 35. I have standards. Unfortunately, you have questions.
 36. The answer is: get a therapist.
+
+## Extras
+
+- Might I suggest fidget toys for your tongue?
+
+### Shakespearean Insults
+
+- I do desire we may be better strangers
+- Roast-meat for worms. Delicious!
+- Might you be lewdly inclin'd?
+- Anointed sovereign of sighs and groans
+- All eyes and no sight, this one\u2026
